@@ -2,7 +2,7 @@ import os
 import re
 filedir =os.getcwd()
 filenames=os.listdir(filedir)
-f=open('result.json','w')
+f=open('result.txt','w')
 doc=open('structureList.txt','w')
 f.writelines('{\n')
 first=True
